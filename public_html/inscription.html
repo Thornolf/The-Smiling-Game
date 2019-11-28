@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inscription</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="logo.png" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="jeu.html">Jeu</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="apropos.html">A propos</a></li>
+        </ul> 
+        <p>Page d'inscription</p><br/>
+        <form action="index.html">
+            <div class="container">
+                <label for="username"><b>Nom</b></label><br/>
+                <input type="text" placeholder="Entrez votre nom" name="username" id="username" required><br/>
+
+                <label for="userfirstname"><b>Prenom</b></label><br/>
+                <input type="text" placeholder="Entrez votre prenom" name="userfisrtname" id="userfirstname" required><br/>
+
+                <label for="date"><b>Date de naissance</b></label><br/>
+                <input type="date" name="date" id="date" required><br/>
+                
+                <label for="numero"><b>Numero de telephone</b></label><br/>
+                <input type="tel" placeholder="Entrez votre numero de telephone" name="numero" required><br/>
+
+                <label for="mail"><b>Adresse courriel</b></label><br/>
+                <input type="email" placeholder="Entrez votre courriel" name="mail" id="mail" required><br/>
+
+                <label for="psw"><b>Mot de passe</b></label><br/>
+                <input type="password" placeholder="Entrez votre mot de passe" id="password" required><br/>
+
+                <label for="confirm_psw"><b>Confirmer mot de passe</b></label><br/>
+                <input type="password" placeholder="Confirmer mot de passe" id="confirm_password" required><br/>
+
+                <button type="submit">Valider</button>
+            </div>
+        </form>
+    </body>
+</html>

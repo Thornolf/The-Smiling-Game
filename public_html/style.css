@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 oct. 2018, 15:14:41
+    Author     : giacom_r
+*/
+
+/* Barre de nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/*Form style*/
+
+input {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=password]:focus {
+    background-color: lightgreen;
+}
+
+input[type=email]:focus {
+    background-color: lightcyan;
+}
+
+/*style a propos*/
+
+#author {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+
+#author p
+{
+    margin: 35px 0;
+    padding: 0 15px;
+}
+
+.people {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.grille {
+  display: grid;
+  margin: 25px 50px 25px 235px;
+  grid-template-columns: 70px 70px 70px 70px 70px;
+  grid-gap: 5px;
+  background-color: #fff;
+  color: #444;
+}
+
+
+.recommencerposition {
+  margin: 5px 100px 10px 175px;
+}
+
+.boite {
+    background-color: lightgrey;
+    width: 300px;
+    float: right;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
